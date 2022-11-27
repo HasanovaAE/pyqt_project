@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>799</width>
+    <height>672</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Bahnschrift Light</family>
+    <pointsize>18</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>61</y>
+      <width>791</width>
+      <height>471</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>571</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Деловая литература</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Детектив</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Триллер</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Документальная литература</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Хобби</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Драматургия</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Искусство</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Компьютеры</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Детские</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Роман</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Наука</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Образование</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Поэзия</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Приключения</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Проза</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Журнал</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Фанфик</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Комикс</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Религия</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Эзотерика</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Справочник</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Учебники</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Фантастика</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Фэнтези</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Фольклор</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Юмор</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Психология</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Здоровье</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Красота</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Зарубежная литература</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>540</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Домой</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>10</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Найти</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>799</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
